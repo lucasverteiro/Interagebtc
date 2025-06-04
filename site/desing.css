@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    background-color: orange;
+    font-family: tahoma;
+    font-size: 17px;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+h4 {
+    text-align: end;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 700px;
+    height: 50px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: center;
+}
+
+input::placeholder {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.t1 {
+    border-spacing: 21px;
+}
