@@ -42,6 +42,7 @@ input::placeholder {
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.t1 {
-    border-spacing: 21px;
+
+img {
+    width: 100%;
 }
