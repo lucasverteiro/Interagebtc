@@ -8,7 +8,7 @@ body {
 }
 
 p {
-    font-size: 30px;
+    font-size: 120%;
     text-align: center;
     width: 100%;
 }
@@ -22,7 +22,7 @@ h3 {
 }
 
 h4 {
-    margin-top: 0px;
+    margin-left: 7px;
 }
 
 h2 {
@@ -46,3 +46,4 @@ input::placeholder {
 img {
     width: 100%;
 }
+
