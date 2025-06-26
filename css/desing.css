@@ -12,7 +12,7 @@ body {
     width: 100%;
 }
 
-button {
+input[type="button"] {
     background-color: royalblue;
     width: 18%;
     font-size: 70%;
