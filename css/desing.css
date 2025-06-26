@@ -3,14 +3,19 @@
 body {
     background-color: orange;
     font-family: tahoma;
-    font-size: 17px;
-    width: 100%;
+    font-size: 100%;
 }
 
-p {
+.texto {
     font-size: 120%;
     text-align: center;
     width: 100%;
+}
+
+button {
+    background-color: royalblue;
+    width: 20%;
+    font-size: 50%;
 }
 
 h1 {
@@ -31,15 +36,15 @@ h2 {
 }
 
 input[type="text"] {
-    width: 100%;
+    width: 70%;
     height: 100%;
-    font-size: 25px;
+    font-size: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif; 
     text-align: center;
 }
 
 input::placeholder {
-    font-size: 25px;
+    font-size: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
