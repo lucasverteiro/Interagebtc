@@ -12,7 +12,7 @@ body {
     width: 100%;
 }
 
-input[type="button"] {
+input[type="submit"] {
     background-color: royalblue;
     width: 18%;
     font-size: 70%;
