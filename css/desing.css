@@ -48,7 +48,7 @@ input::placeholder {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-form > input[type="submit"] {
+form > input[type=submit] {
     background-color: royalblue;
     width: 18%;
     font-size: 70%;
@@ -60,6 +60,6 @@ form > input[type="submit"] {
     cursor: pointer;
 }
 
-form > input[type="submit"]:hover {
+form > input[type=submit]:hover {
     background-color: rgb(39, 62, 133);
 }
