@@ -12,7 +12,7 @@ body {
     width: 100%;
 }
 
-input[type="submit"] {
+form > input[type="submit"] {
     background-color: royalblue;
     width: 18%;
     font-size: 70%;
@@ -21,6 +21,11 @@ input[type="submit"] {
     height: 30px;
     left: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+form > input[type="submit"]:hover {
+    background-color: rgb(39, 62, 133);
 }
 
 h1 {
