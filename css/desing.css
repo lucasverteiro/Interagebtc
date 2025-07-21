@@ -9,10 +9,14 @@ body {
 .texto {
     font-size: 120%;
     text-align: center;
-    width: 100%;
+    margin-left: 0px;
 }
 
 img {
+    width: 100%;
+}
+
+table {
     width: 100%;
 }
 
@@ -24,17 +28,9 @@ h3 {
     margin-top: 0px;
 }
 
-h4 {
-    margin-left: 7px;
-}
-
 h2 {
     text-align: center;
     width: 100%;
-}
-
-.img1 {
-    width: 200px x 200px;
 }
 
 #temporizador {
@@ -56,6 +52,22 @@ input::placeholder {
     font-size: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: none;
+}
+
+button {
+    background-color: royalblue;
+    width: 18%;
+    font-size: 70%;
+    border-radius: 7px;
+    border: none;
+    height: 30px;
+    left: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(39, 62, 133);
 }
 
 input[type=submit] {
