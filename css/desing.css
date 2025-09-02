@@ -33,7 +33,7 @@ h2 {
     width: 100%;
 }
 
-#temporizador {
+#contador {
     font-size: 150%;
     text-align: center;
 }
@@ -68,6 +68,8 @@ button {
 
 button:hover {
     background-color: rgb(39, 62, 133);
+    height: 30px;
+    left: 30px;
 }
 
 input[type=submit] {
