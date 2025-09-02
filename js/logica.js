@@ -24,7 +24,7 @@ async function salvarEmail() {
     const email = document.getElementById("email").value;
     if (email) {
         try{
-            const docRef = await addDoc(collection(db, "emails"), {
+            const docRef = await addDoc(collection(db, "email"), {
                 endereco: email, dataSalvo: new Date()
             });
             console.log("Email salvo com ID:", docRef.id);
