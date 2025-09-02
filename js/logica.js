@@ -1,6 +1,5 @@
-
-const botao = window.document.getElementById('continuar')
-botao.addEventListener('click', () =>{
-    window.open('html/respaw.html', '_blank');
+const botaoAcoes = Document.getElementById('continuar');
+botaoAcoes.addEventListener('click', function() {
+    window.open('https://www.youtube.com', '_blank');
+    window.location.href = '../html/respaw.html';
 });
-

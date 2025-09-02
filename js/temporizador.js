@@ -5,8 +5,7 @@ function atualizarContador() {
     elementoContador.textContent = tempoRestante;
     if (tempoRestante <= 0) {
         clearInterval(temporizador);
-        window.open('../index.html', '_blank');
-        window.close();
+        window.location.href = '../index.html';
     }
 }
 
